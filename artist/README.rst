@@ -10,6 +10,12 @@ It can be a humorist, a stage band, an orchestra, a painter, etc.
 The term artist does not represent a person.
 It designates a group of people (members). It may however be composed of one person.
 
+该模块将“艺术家”的概念添加为 Odoo 模型。
+
+.. contents:: 目录
+
+艺术家是娱乐界实体的总称。它可以是幽默家、舞台乐队、管弦乐队、画家等。艺术家一词并不代表一个人。它指定一组人（成员）。然而，它可以由一个人组成。
+
 Context
 -------
 When designing the module, there was a choice to be made:
@@ -22,6 +28,9 @@ the commercial entity that owns the artist and the artist itself.
 
 Also there is a distinction between the contacts at the commercial entity
 and the members of the artist.
+
+在一个单独的模型中分离艺术家的一个原因是拥有艺术家的商业实体与艺术家本身之间的模糊性。
+商业实体的联系人和艺术家的成员之间也有区别。
 
 Artists
 -------

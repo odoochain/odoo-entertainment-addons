@@ -14,7 +14,6 @@ class ResPartnerBirthCity(models.Model):
     name = fields.Char(string="Birth City", required=1)
     active = fields.Boolean(string="Active", default=True)
 
-    @api.multi
     @api.constrains("code")
     def _check_code(self):
         """Check code."""

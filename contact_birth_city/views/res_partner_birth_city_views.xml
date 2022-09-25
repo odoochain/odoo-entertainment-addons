@@ -28,7 +28,6 @@
     <record id="res_partner_birth_city_action" model="ir.actions.act_window">
         <field name="name">Birth City</field>
         <field name="res_model">res.partner.birth.city</field>
-        <field name="view_type">form</field>
         <field name="view_mode">tree</field>
      </record>
 

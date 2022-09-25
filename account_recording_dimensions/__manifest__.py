@@ -9,7 +9,7 @@
     'website': 'https://www.numigi.com',
     'license': 'LGPL-3',
     'category': 'Recording',
-    'summary': 'Create link between acount move lines and recordings and artists.',
+    'summary': 'Create link between acount move lines and recordings and artists.在帐户移动线与录音和艺术家之间创建链接。',
     'depends': [
         'recording_artist',
         'account'

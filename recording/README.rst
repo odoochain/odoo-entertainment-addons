@@ -2,6 +2,8 @@ Recording
 =========
 This module contains the most minimal setup for the recording application.
 
+此模块包含录制应用程序的最小设置。
+
 .. contents:: Table of Contents
 
 Application Panel
@@ -31,6 +33,8 @@ It contains relevant configuration objects for the application.
 
 When installing only the recording application any optional addon,
 it contains the following submenus.
+
+此菜单可供“录音管理器”组的成员使用。它包含应用程序的相关配置对象。仅安装录制应用程序任何可选插件时，它包含以下子菜单。
 
 Languages
 *********

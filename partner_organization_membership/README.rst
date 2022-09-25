@@ -4,6 +4,9 @@ Partner Organization Membership
 This module allows to identify if the partner is an artist and if he is a member of a management organization.
 It also manage information related to the artist's identification.
 
+该模块允许识别合作伙伴是否是艺术家以及他是否是管理组织的成员。它还管理与艺术家身份相关的信息。
+
+
 Usage
 -----
 
