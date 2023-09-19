@@ -58,6 +58,25 @@ It is computed based on the show date and venue.
 
 .. image:: static/description/show_title.png
 
+When you select a parent project ``Tour``, the fields ``Artist``
+and ``Analytic Account`` are automatically filled with the
+values of the fields ``Artist`` and ``Analytic Account``
+of the parent project ``Tour`` respectively.
+
+.. image:: static/description/tour_artist_analytic_account.png
+
+The project of type ``Show``.
+
+.. image:: static/description/show_artist_analytic_account.png
+
+The analytic account/customer constraint is deleted
+in case of project type ``Show`` or ``Tour``.
+
+.. image:: static/description/delete_constraint_analytic_account_customer.png
+
+.. image:: static/description/analytic_account_customer.png
+
+
 Show Configuration
 ~~~~~~~~~~~~~~~~~~
 In the ``Venue`` tab, the field ``Configuration`` allows to select a site configuration for this show.
@@ -76,8 +95,14 @@ Other fields are populated based on values defined on the show venue.
 
 .. image:: static/description/show_with_venue_fields.png
 
-Contributors
-------------
+
+Show/Tour Project Search view
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Since version ``2.0.4`` of the module, when I access the ``Project`` application, I can search by ``Artist`` and ``City`` from the search bar.
+
+.. image:: static/description/search_project_city_artist.png
+
+
 * Numigi (tm) and all its contributors (https://bit.ly/numigiens)
 * Komit (https://komit-consulting.com)
 
